@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter OTP</title>
+    <script src="https://kit.fontawesome.com/278cf368e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.css">
+    <link rel="stylesheet" href="formStyles.css">
+</head>
+<body>
+    <div class="mainAddress">
+    <form class = "addressForm">
+        <h1>Please Enter Your OTP</h1>
+        
+        <input type="number" class="otp name" placeholder="Enter OTP (1234)" />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+</body>
+</html>
+
+<script>
+    document.querySelector("form").addEventListener("submit", submitOTP);
+
+    function submitOTP(event){
+        event.preventDefault();
+
+        var otp = document.querySelector(".otp").value;
+
+        if(otp == 1234){
+            alert("Order Placed Successfully.")
+            alert("Payment Successful, redirecting to Home");
+            window.location.href = "home.html"
+
+        } else{
+            alert("Wrong OTP!")
+        }
+    }
+</script>

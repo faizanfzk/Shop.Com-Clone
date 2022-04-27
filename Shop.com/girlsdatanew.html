@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Girl Kid</title>
+    <link rel="stylesheet" href="stylegirl.css" />
+    <!-- <link rel="stylesheet" href="nav-styles.css"> -->
+    <script src="https://kit.fontawesome.com/278cf368e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="nav-styles.css">
+    <script src="girls_data.js"></script>
+  </head>
+  <body>
+
+    <div id="mainnav">
+      <div id="nav1">
+  
+          <div id="nav2">
+  
+              <div class="logo"><a href="home.html"><img src="https://img.shop.com/Image/resources/logos/shop-logo-us.svg"
+                          alt=""></a>
+              </div>
+  
+              <div class="search">
+  
+                  <input type="text" placeholder="Search SHOP.COM...">
+                  <div class="icon" <a href=""><i class="fas fa-search"></i></a></div>
+                  <!-- <input type="submit" class="srctext" value="Search"> -->
+              </div>
+              <div class="left">
+                  <div class="logo2"><a href="home.html"><img
+                              src="https://img.shop.com/Image/header2013/shop-usa-86816-valentines-lp-banners-jan221642025439549.jpeg"
+                              alt=""></a></div>
+              </div>
+          </div>
+          <div id="nav2">
+  
+              <div class="logo">
+                  <a href="">
+                      <div class=brgr><i class="fas fa-bars"> Categories</i></div>
+                  </a>
+              </div>
+  
+              <div class="search2">
+                  <div class="gap">
+  
+                      <a href="menShopPage.html">
+                          <h4>Shop For Men</h4>
+                      </a>
+                      <a href="womenShopPage.html">
+                          <h4>Shop For Women</h4>
+                      </a>
+                      <a href="girlsdatanew.html">
+                          <h4>Shop For Girls</h4>
+                      </a>
+                      <a href="">
+                          <h4>SHOP Travel</h4>
+                      </a>
+                      <a href="">
+                          <h4>Departments</h4>
+                      </a>
+                      <a href="">
+                          <h4>ShopBuddy</h4>
+                      </a>
+                  </div>
+              </div>
+              <div class="left">
+                  <a href="login.html"><i class="fas fa-user-circle"> Sign in</i></a>
+                  <a href=""><i class="fas fa-redo-alt"> Orders</i></a>
+                  <a href="cart.html"><i class="fas fa-shopping-cart"> Cart</i></a>
+              </div>
+          </div>
+      </div>
+    </div>
+<!-- Main Content-->
+    <div class="selects">
+      <span>Sort:</span
+      ><select id="sortPrice" onchange="sortPrice()">
+        <option value="">Best Match</option>
+        <option value="low">Low to High</option>
+        <option value="high">High to Low</option>
+      </select>
+      
+    </div>
+    
+    <div id="main">
+      <div id="sidebar">
+        <div id="sidebar1">
+          <ul>
+            <li id="filter">
+                Dress Type
+                <span id="dress1" class="material-icons"
+                  >keyboard_arrow_down</span
+                >
+                <ul class="hide">
+                  <li id="Top">Top</li>
+                  <li id="T-shirt">T-shirt</li>
+                  <li id="Leggings">Leggings</li>
+                  <li id="Shirt">Shirt</li>
+                  <li id="Sort">Sort</li>
+                </ul>
+            </li>
+          </ul>
+          <hr>
+            <ul>
+              <li id="brand">
+                  Dress Brands
+                  <span id="dress2" class="material-icons"
+                  >keyboard_arrow_down</span>
+                    <ul class="hide2">
+                      <li id="Biba">Biba</li>
+                      <li id="Zara">Zara</li>
+                      <li id="Levis">Levis</li>
+                      <li id="Calvin">Calvin</li>
+                    </ul>
+              </li>
+            </ul>
+          <hr>
+      </div>
+       </div>
+      <div id="container"></div>
+    </div>
+
+  <!-- footer -->
+    <footer id="footer">
+      <div class="footer-up">
+        <div class="deals-1">
+          <div class="right">
+            <h5>Get Email Deals & Earn Cashback</h5>
+            <input
+              type="text"
+              placeholder="enter email address..."
+              id="email"
+            /><span><button>sign Up</button></span>
+          </div>
+          <p>Link to this page and tell all your friends</p>
+        </div>
+        <div class="deals-2">
+          <p>
+            About Us | Help | Accessibility Statement | Contact Us | Partner
+            with us | Services | Country/Region | Connect | Own your Own Shop
+            Site
+          </p>
+          <span>
+            <i class="fas fa-envelope"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-pinterest"></i>
+          </span>
+        </div>
+      </div>
+      <div class="footer-down">
+        <p>
+          © 1997-2022 Market America, Inc. or its affiliates. All other
+          designated trademarks, copyrights, and brands are the property of
+          their respective owners.
+        </p>
+        <p>
+          Only Customers will receive cashback on qualifying purchases.
+          UnFranchise Owners/Shop Consultants will receive increased IBV instead
+          of cashback on qualifying purchases.
+        </p>
+        <div class="policy">
+          <a href="#">Policy</a> | <a href="#">Terms of Use</a> |
+          <a href="#">Advertising disclosure</a> |
+          <a href="#">Return Policy</a> |
+          <a href="#">Shipping Information</a>
+        </div>
+        <hr />
+        <div class="footer-images">
+          <img src="https://www.shop.com/feo-cdn/A/A/pzI6tGZhU.webp" alt="" />
+          <img src="https://www.shop.com/feo-cdn/z/b/qA5FJf0J4.webp" alt="" />
+          <img src="https://www.shop.com/feo-cdn/q/B/9huVMYs4g.webp" alt="" />
+          <img src="https://www.shop.com/feo-cdn/9/y/SggnBCF2o.webp" alt="" />
+          <img src="https://www.shop.com/feo-cdn/p/Y/nOXdu76ik.webp" alt="" />
+          <img src="https://www.shop.com/feo-cdn/u/P/cg2zbaz_s.webp" alt="" />
+          <img src="https://www.shop.com/feo-cdn/K/F/E44Pe49Qs.webp" alt="" />
+          <img src="https://www.shop.com/feo-cdn/T/P/ESOWP6gWY.webp" alt="" />
+          <img src="https://www.shop.com/feo-cdn/T/P/ESOWP6gWY.webp" alt="" />
+        </div>
+        <div id="foot-img-last">
+          <img src="download.png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<script>
+  
+  var girlsData = JSON.parse(localStorage.getItem("girlData")) || [];
+  var cartItems = JSON.parse(localStorage.getItem("CartArray")) || [];
+
+  populate(girlsData);
+
+  var flag = true;
+  document.querySelector("#dress1").addEventListener("click", function () {
+    if (flag) {
+      document.querySelector(".hide").style.display = "none";
+      return (flag = false);
+    } else {
+      document.querySelector(".hide").style.display = "block";
+      return (flag = true);
+    }
+  });
+  var flag2 = true;
+  document.querySelector("#dress2").addEventListener("click", function () {
+    if (flag2) {
+      document.querySelector(".hide2").style.display = "none";
+      return (flag2 = false);
+    } else {
+      document.querySelector(".hide2").style.display = "block";
+      return (flag2 = true);
+    }
+  });
+
+  //         function filterDress() {
+  //     var resfil = document.querySelector("#filterDress").value;
+  //     console.log(resfil);
+
+  //     var filarr = girlsData.filter(function (elem) {
+  //       return elem.type == resfil;
+  //     });
+  //     //  console.log(resfil);
+  //     populate(filarr);
+  //   }
+
+  var x = document.querySelectorAll("li");
+  console.log(x);
+
+  document.querySelector("#Top").addEventListener("click", function () {
+    var selected1 = document.querySelector("#Top").textContent;
+
+    var filarr = girlsData.filter(function (elem) {
+      return elem.type == selected1;
+    });
+
+    populate(filarr);
+  });
+
+  document.querySelector("#T-shirt").addEventListener("click", function () {
+    var selected2 = document.querySelector("#T-shirt").textContent;
+
+    var filarr = girlsData.filter(function (elem) {
+      return elem.type == selected2;
+    });
+
+    populate(filarr);
+  });
+
+  document.querySelector("#Shirt").addEventListener("click", function () {
+    var selected3 = document.querySelector("#Shirt").textContent;
+
+    var filarr = girlsData.filter(function (elem) {
+      return elem.type == selected3;
+    });
+
+    populate(filarr);
+  });
+
+  document.querySelector("#Leggings").addEventListener("click", function () {
+    var selected4 = document.querySelector("#Leggings").textContent;
+
+    var filarr = girlsData.filter(function (elem) {
+      return elem.type == selected4;
+    });
+
+    populate(filarr);
+  });
+
+  document.querySelector("#Sort").addEventListener("click", function () {
+    var selected5 = document.querySelector("#Sort").textContent;
+
+    var filarr = girlsData.filter(function (elem) {
+      return elem.type == selected5;
+    });
+
+    populate(filarr);
+  });
+
+  document.querySelector("#Biba").addEventListener("click", function () {
+    var selected6 = document.querySelector("#Biba").textContent;
+
+    var filarr = girlsData.filter(function (elem) {
+      return elem.Brand == selected6;
+    });
+
+    populate(filarr);
+  });
+
+  document.querySelector("#Zara").addEventListener("click", function () {
+    var selected7 = document.querySelector("#Zara").textContent;
+
+    var filarr = girlsData.filter(function (elem) {
+      return elem.Brand == selected7;
+    });
+
+    populate(filarr);
+  });
+
+  document.querySelector("#Levis").addEventListener("click", function () {
+    var selected8 = document.querySelector("#Levis").textContent;
+
+    var filarr = girlsData.filter(function (elem) {
+      return elem.Brand == selected8;
+    });
+
+    populate(filarr);
+  });
+
+  document.querySelector("#Calvin").addEventListener("click", function () {
+    var selected9 = document.querySelector("#Calvin").textContent;
+
+    var filarr = girlsData.filter(function (elem) {
+      return elem.Brand == selected9;
+    });
+
+    populate(filarr);
+  });
+
+  function sortPrice() {
+    var selected = document.querySelector("#sortPrice").value;
+    console.log(selected);
+    if (selected == "high") {
+      girlsData.sort(function (a, b) {
+        return Number(b.price) - Number(a.price);
+      });
+    } else if (selected == "low") {
+      girlsData.sort(function (a, b) {
+        return Number(a.price) - Number(b.price);
+      });
+    }
+    populate(girlsData);
+  }
+
+  
+
+  function populate(girlsData) {
+    document.querySelector("#container").innerHTML = "";
+
+    girlsData.map(function (elem) {
+      var card = document.createElement("div");
+      card.setAttribute("class", "card");
+
+      var image = document.createElement("img");
+      image.setAttribute("src", elem.link);
+
+      var productInfo = document.createElement("div");
+      productInfo.setAttribute("class", "productInfo");
+
+      var name = document.createElement("p");
+      name.setAttribute("class", "name");
+      name.textContent = elem.title;
+
+      var sellerDiv = document.createElement("div");
+      sellerDiv.setAttribute("class", "soldByDiv");
+
+      var cartIcon = document.createElement("img");
+      cartIcon.setAttribute(
+        "src",
+        "https://img.shop.com/Image/resources/images/onecart-icon.svg"
+      );
+      cartIcon.setAttribute("class", "iconDollar");
+
+      var soldBy = document.createElement("p");
+      soldBy.setAttribute("class", "soldBy");
+      soldBy.textContent = "Sold by Devis Sports";
+
+      sellerDiv.append(cartIcon, soldBy);
+
+      var p1 = document.createElement("p");
+      p1.setAttribute("class", "price");
+      p1.textContent = "$" + Number(elem.price);
+
+      var cb = document.createElement("div");
+      cb.setAttribute("class", "cashBack-div");
+
+      var cashBack = document.createElement("p");
+      cashBack.setAttribute("class", "cashBack");
+      cashBack.textContent = "+ " + "$" + Number(elem.cashBack);
+
+      var slash = document.createElement("p");
+      slash.setAttribute("class", "slash");
+      slash.textContent = "/";
+
+      var iconDollar = document.createElement("img");
+      iconDollar.setAttribute(
+        "src",
+        "https://img.shop.com/Image/resources/images/cashback-icon.svg"
+      );
+      iconDollar.setAttribute("class", "iconDollar");
+
+      var p3 = document.createElement("p");
+      p3.setAttribute("class", "p3");
+      p3.textContent = "Cashback";
+
+      var freeShipping = document.createElement("p");
+      freeShipping.setAttribute("class", "freeShipping");
+      freeShipping.textContent = "Free shipping";
+
+      var percentCashBack = document.createElement("p");
+      percentCashBack.setAttribute("class", "percentCashBack");
+      percentCashBack.textContent = Number(elem.percentCashback) + "%";
+
+      cb.append(cashBack, slash, percentCashBack, iconDollar, p3);
+
+      var buttons = document.createElement("div");
+      buttons.setAttribute("class", "buttons");
+
+      var btnBO = document.createElement("button");
+      btnBO.setAttribute("class", "btn2");
+      btnBO.textContent = "Buy Now";
+      btnBO.addEventListener("click", function () {});
+
+      var btn = document.createElement("button");
+      btn.setAttribute("class", "btn");
+      btn.textContent = "Add To Cart";
+      btn.addEventListener("click", function () {
+        addToCart(elem);
+      });
+
+      productInfo.append(name, sellerDiv, p1, cb, freeShipping);
+      buttons.append(btnBO, btn);
+      card.append(image, productInfo, buttons);
+      document.querySelector("#container").append(card);
+
+      function addToCart(elem) {
+        cartItems.push(elem);
+        localStorage.setItem("CartArray", JSON.stringify(cartItems));
+        alert(elem.title + " added to Cart");
+      }
+    });
+  }
+</script>
