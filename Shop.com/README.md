@@ -16,5 +16,18 @@ Our main aim was to ensure that the user has a good experience and hence we crea
     also given login button in case a user want to login ,he/she can easily login from there.
 </p>
 
+<h2>Categories</h2>
+<img src="https://user-images.githubusercontent.com/97458887/165992508-2155c761-3cd8-4f78-8b9c-e7d7c1498460.png" alt="">
+<p>In this section you can easily see the things like you can buy stuf for Mens , Women , and for kids also.
+    You can also filter the things and sort as well.  </p>
+        <h2>Sign-Up and Login</h2>
+    <img src="https://user-images.githubusercontent.com/97458887/165994037-4ea18522-ab9e-4eee-945a-d8666ec19340.png" alt="">
+    <img src="https://user-images.githubusercontent.com/97458887/165994305-7235e404-e982-4816-af3c-424d9a6c4039.png" alt="">
+   <p>If a user is new to website he can easily create the account or if he has already have an account he can simply login from there.
+       Here we have use Local Storage as a Database to store details.
+   </p>
+
+
+
 
 
