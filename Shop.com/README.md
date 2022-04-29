@@ -26,6 +26,15 @@ Our main aim was to ensure that the user has a good experience and hence we crea
    <p>If a user is new to website he can easily create the account or if he has already have an account he can simply login from there.
        Here we have use Local Storage as a Database to store details.
    </p>
+   <h2>Address and Payment Page</h2>
+
+<img style="display: flex;" src="https://user-images.githubusercontent.com/97458887/165996043-9a66ef04-7730-4eac-bfca-b655939ddafb.png" alt="">
+<img src="https://user-images.githubusercontent.com/97458887/165996294-9e69ce3f-c872-48fa-b0db-b1941ff9ebc7.png" alt="">
+
+<p>After selecting the things he can simply put his address and card details for successful purchasing .</p>
+
+
+
 
 
 
